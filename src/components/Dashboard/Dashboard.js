@@ -25,7 +25,7 @@ class Dashboard extends Component {
           goal={campaign.boxOffice.goal}
           actual={campaign.boxOffice.actual}
           difference={campaign.boxOffice.difference}
-          reports={campaign.boxOffice.reports}
+          reports={campaign.reports}
         />
       </div>
     );

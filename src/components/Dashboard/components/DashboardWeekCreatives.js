@@ -17,10 +17,14 @@ export default class DashboardWeekCreatives extends PureComponent {
             <table className="DashboardWeekCreatives__item" key={`item_${item.name}_${index}`}>
               <tbody>
               <tr className="DashboardWeekCreatives__tableRow first">
-                <th className="DashboardWeekCreatives__tableHead first"><h4>{item.name}</h4></th>
+                <th className="DashboardWeekCreatives__tableHead first"><h4>
+                  <i className={item.ico ? item.ico : `ico ico-${item.name}`}></i>
+                  {item.name}</h4></th>
                 {
                   item.tableHead.map((thead, index) => (
-                    <th key={`tableHead_${index}`} className="DashboardWeekCreatives__tableHead"><h4>{thead}</h4></th>
+                    <th key={`tableHead_${index}`} className="DashboardWeekCreatives__tableHead">
+                      <h4>{thead}</h4>
+                    </th>
                   ))
                 }
               </tr>

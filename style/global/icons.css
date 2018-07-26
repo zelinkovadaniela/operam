@@ -1,0 +1,15 @@
+.ico {
+	display: inline-block;
+}
+
+.ico-programmatic {
+	background: url("../../public/icons/ico-programmatic.svg");
+	width: 8px;
+	height: 8px;
+}
+
+.ico-directBuy {
+	background: url("../../public/icons/ico-directbuy.svg");
+	width: 11px;
+	height: 9px;
+}

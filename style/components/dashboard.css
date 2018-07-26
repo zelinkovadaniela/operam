@@ -42,3 +42,42 @@
 .DashboardHeader__item:last-child {
 	border-bottom: none;
 }
+
+.DashboardResult {
+	margin-bottom: 28px;
+}
+
+.DashboardResult__main {
+	background: var(--green);
+	display: flex;
+	justify-content: space-between;
+	width: 440px;
+	padding: 15px 25px;
+	border-radius: 4px;
+}
+
+.DashboardResult__main h6 {
+	font-size: 18px;
+}
+
+.DashboardResult__mainFlex {
+	flex: 1;
+}
+.DashboardResult__span {
+	display: flex;
+	align-items: center;
+}
+.DashboardResult__growth {
+	position: relative;
+	padding-left: 20px;
+}
+.DashboardResult__growth:before {
+	content: '';
+	display: block;
+	width: 8px;
+	height: 8px;
+	background: url("../../public/icons/icon-arrow-top-white.svg");
+	position: absolute;
+	left: 5px;
+	top: 4px;
+}

@@ -2,6 +2,8 @@
 @import "global/variables.css";
 @import "global/normalize.css";
 @import "global/font.css";
+@import "global/icons.css";
 
 @import "components/dashboard.css";
 @import "components/dashboardWeeks.css";
+@import "components/header.css";

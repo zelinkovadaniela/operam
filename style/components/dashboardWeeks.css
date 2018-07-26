@@ -64,9 +64,52 @@
 .DashboardWeekHeader__bodyItem:nth-child(n+4) {
 	border-bottom: none;
 }
+.DashboardWeekHeader__growth {
+	position: relative;
+	padding-left: 11px;
+}
+.DashboardWeekHeader__growth:before {
+	content: "";
+	display: block;
+	width: 7px;
+	height: 8px;
+	position: absolute;
+	left: 0;
+	top: 4px;
+}
+.DashboardWeekHeader__growth.green:before {
+	background: url("../../public/icons/icon-arrow-top.svg");
+}
+.DashboardWeekHeader__growth.red:before {
+	background: url("../../public/icons/icon-arrow-top-red.svg");
+}
 
+.DashboardWeekHeader__growth.percentage {
+	display: flex;
+	padding-left: 0;
+}
+
+.DashboardWeekHeader__growth.percentage span:first-child {
+	order: 2;
+}
 .DashboardWeekReports {
 	margin-bottom: 24px;
+}
+
+.DashboardWeekReports__noReport {
+	position: relative;
+	color: var(--text-grey-lighter);
+	font-weight: 500;
+	font-size: 14px;
+	padding: 11px 26px;
+}
+
+.DashboardWeekReports__noReport:before {
+	background: url("../../public/icons/ico-info.svg");
+	width: 16px;
+	height: 16px;
+	left: 0;
+	top: 10px;
 }
 
 .DashboardWeekReports__report {
@@ -76,7 +119,33 @@
 	font-size: 14px;
 	color: var(--text-black);
 	font-weight: 500;
-	padding: 8px;
+	padding: 11px 50px;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.DashboardWeekReports__report:before,
+.DashboardWeekReports__report:after,
+.DashboardWeekReports__noReport:before {
+	content: '';
+	display: block;
+	position: absolute;
+}
+
+.DashboardWeekReports__report:before {
+	background: url("../../public/icons/icon-document.svg");
+	width: 12px;
+	height: 16px;
+	left: 15px;
+	top: 10px;
+}
+
+.DashboardWeekReports__report:after {
+	background: url("../../public/icons/icon-download.svg");
+	width: 16px;
+	height: 16px;
+	right: 15px;
+	top: 10px;
 }
 
 .DashboardWeekNotes {
@@ -117,13 +186,19 @@
 	border-bottom: none;
 }
 
-.DashboardWeekCreatives__tableHead.first {
-	text-align: left;
-}
-
 .DashboardWeekCreatives__tableHead {
 	padding: 8px;
 }
+
+.DashboardWeekCreatives__tableHead.first {
+	text-align: left;
+	padding-left: 14px;
+}
+
+.DashboardWeekCreatives__tableHead i {
+	margin-right: 5px;
+}
+
 .DashboardWeekCreatives__tableDetail {
 	text-align: right;
 	padding: 4px;

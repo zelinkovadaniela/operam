@@ -1,0 +1,17 @@
+.Header {
+	background: var(--black);
+	color: var(--white);
+	padding: 20px 70px;
+	position: relative;
+}
+
+.Header:before {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 20px;
+	top: 13px;
+	background: url(../../public/icons/logo.svg);
+	width: 25px;
+	height: 27px;
+}

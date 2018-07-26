@@ -8,7 +8,7 @@ const campaign = {
     "actual": "$6,728,123",
     "difference": {
       "percentage": "224%",
-      "trend": "positive"
+      "trend": "percentage"
     }
   },
   "reports": [
@@ -62,6 +62,7 @@ const campaign = {
         "creatives": [
           {
             "name": "facebook",
+            "ico": "fab fa-facebook-f",
             "tableHead": [
               "imp",
               "psr",
@@ -100,6 +101,7 @@ const campaign = {
           },
           {
             "name": "instagram",
+            "ico": "fab fa-instagram",
             "tableHead": [
               "imp",
               "psr",
@@ -138,6 +140,7 @@ const campaign = {
           },
           {
             "name": "youtube",
+            "ico": "fab fa-youtube-square",
             "tableHead": [
               "imp",
               "psr",
@@ -196,6 +199,7 @@ const campaign = {
           },
           {
             "name": "snapchat",
+            "ico": "fab fa-snapchat-ghost",
             "tableHead": [
               "imp",
               "psr",
@@ -216,6 +220,7 @@ const campaign = {
           },
           {
             "name": "twitter",
+            "ico": "fab fa-twitter",
             "tableHead": [
               "imp",
               "psr",
@@ -324,6 +329,7 @@ const campaign = {
         "creatives": [
           {
             "name": "facebook",
+            "ico": "fab fa-facebook-f",
             "tableHead": [
               "imp",
               "psr",
@@ -423,6 +429,7 @@ const campaign = {
           },
           {
             "name": "instagram",
+            "ico": "fab fa-instagram",
             "tableHead": [
               "imp",
               "psr",
@@ -504,6 +511,7 @@ const campaign = {
           },
           {
             "name": "youtube",
+            "ico": "fab fa-youtube-square",
             "tableHead": [
               "imp",
               "psr",
@@ -580,6 +588,7 @@ const campaign = {
           },
           {
             "name": "twitter",
+            "ico": "fab fa-twitter",
             "tableHead": [
               "imp",
               "psr",
@@ -600,6 +609,7 @@ const campaign = {
           },
           {
             "name": "snapchat",
+            "ico": "fab fa-snapchat-ghost",
             "tableHead": [
               "imp",
               "psr",
@@ -780,6 +790,7 @@ const campaign = {
         "creatives": [
           {
             "name": "facebook",
+            "ico": "fab fa-facebook-f",
             "tableHead": [
               "imp",
               "psr",
@@ -871,6 +882,7 @@ const campaign = {
           },
           {
             "name": "instagram",
+            "ico": "fab fa-instagram",
             "tableHead": [
               "imp",
               "psr",
@@ -935,6 +947,7 @@ const campaign = {
           },
           {
             "name": "youtube",
+            "ico": "fab fa-youtube-square",
             "tableHead": [
               "imp",
               "psr",
@@ -1029,6 +1042,7 @@ const campaign = {
           },
           {
             "name": "snapchat",
+            "ico": "fab fa-snapchat-ghost",
             "tableHead": [
               "imp",
               "psr",
@@ -1200,6 +1214,7 @@ const campaign = {
         "creatives": [
           {
             "name": "facebook",
+            "ico": "fab fa-facebook-f",
             "tableHead": [
               "imp",
               "psr",
@@ -1282,6 +1297,7 @@ const campaign = {
           },
           {
             "name": "instagram",
+            "ico": "fab fa-instagram",
             "tableHead": [
               "imp",
               "psr",
@@ -1337,6 +1353,7 @@ const campaign = {
           },
           {
             "name": "youtube",
+            "ico": "fab fa-youtube-square",
             "tableHead": [
               "imp",
               "psr",
@@ -1422,6 +1439,7 @@ const campaign = {
           },
           {
             "name": "snapchat",
+            "ico": "fab fa-snapchat-ghost",
             "tableHead": [
               "imp",
               "psr",
@@ -1593,6 +1611,7 @@ const campaign = {
         "creatives": [
           {
             "name": "facebook",
+            "ico": "fab fa-facebook-f",
             "tableHead": [
               "imp",
               "psr",
@@ -1684,6 +1703,7 @@ const campaign = {
           },
           {
             "name": "instagram",
+            "ico": "fab fa-instagram",
             "tableHead": [
               "imp",
               "psr",
@@ -1748,6 +1768,7 @@ const campaign = {
           },
           {
             "name": "youtube",
+            "ico": "fab fa-youtube-square",
             "tableHead": [
               "imp",
               "psr",
@@ -1842,6 +1863,7 @@ const campaign = {
           },
           {
             "name": "snapchat",
+            "ico": "fab fa-snapchat-ghost",
             "tableHead": [
               "imp",
               "psr",
@@ -2013,6 +2035,7 @@ const campaign = {
         "creatives": [
           {
             "name": "facebook",
+            "ico": "fab fa-facebook-f",
             "tableHead": [
               "imp",
               "psr",
@@ -2095,6 +2118,7 @@ const campaign = {
           },
           {
             "name": "instagram",
+            "ico": "fab fa-instagram",
             "tableHead": [
               "imp",
               "psr",
@@ -2150,6 +2174,7 @@ const campaign = {
           },
           {
             "name": "youtube",
+            "ico": "fab fa-youtube-square",
             "tableHead": [
               "imp",
               "psr",
@@ -2235,6 +2260,7 @@ const campaign = {
           },
           {
             "name": "snapchat",
+            "ico": "fab fa-snapchat-ghost",
             "tableHead": [
               "imp",
               "psr",
@@ -2406,6 +2432,7 @@ const campaign = {
         "creatives": [
           {
             "name": "facebook",
+            "ico": "fab fa-facebook-f",
             "tableHead": [
               "imp",
               "psr",
@@ -2524,6 +2551,7 @@ const campaign = {
           },
           {
             "name": "instagram",
+            "ico": "fab fa-instagram",
             "tableHead": [
               "imp",
               "psr",
@@ -2597,6 +2625,7 @@ const campaign = {
           },
           {
             "name": "youtube",
+            "ico": "fab fa-youtube-square",
             "tableHead": [
               "imp",
               "psr",
@@ -2682,6 +2711,7 @@ const campaign = {
           },
           {
             "name": "snapchat",
+            "ico": "fab fa-snapchat-ghost",
             "tableHead": [
               "imp",
               "psr",
