@@ -1,0 +1,44 @@
+.Dashboard {
+	overflow: auto;
+	display: flex;
+	height: 100%;
+	padding: 100px 150px 0;
+}
+
+.DashboardHeader {
+	flex: 1 0 auto;
+	border-left: 2px solid var(--border-grey-light);
+	padding-left: 16px;
+	margin-right: 64px;
+}
+
+.DashboardHeader__items {
+	border: 1px solid var(--border-grey-light);
+	display: flex;
+	flex-direction: column;
+	width: 140px;
+	justify-content: center;
+	background: var(--white);
+}
+
+.DashboardHeader__itemMain {
+	height: 77px;
+	padding-left: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-bottom: 1px solid var(--border-grey-light);
+}
+
+.DashboardHeader__item {
+	height: 60px;
+	padding-left: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-bottom: 1px solid var(--border-grey-light);
+}
+
+.DashboardHeader__item:last-child {
+	border-bottom: none;
+}

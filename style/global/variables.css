@@ -1,0 +1,25 @@
+:root {
+	/*
+ * FONT
+ */
+	--font-size: 1.4rem;
+	--font-family: 'SF Compact Display Medium', sans-serif;
+
+	/*
+	 * COLORS
+	 */
+	--white: #ffffff;
+	--black: #282c30;
+	--text-black: #42484f;
+	--text-grey: #68707a;
+	--text-grey-lighter: #8a909b;
+	--bg-grey-light: #f7f8f9;;
+	--bg-grey: #eff2f4;
+	--border-grey: #dadfe5;
+	--border-notes: #d0d6dd;
+	--border-grey-light: #e6e9ed;
+	--grey: #b4bcc6;
+	--green: #28a855;
+	--red: #d83b36;
+	--blue: #348ed8;
+}
